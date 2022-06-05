@@ -8,7 +8,7 @@ set $up k
 set $right l
 
 # Terminal emulator
-set $term foot
+set $term alacritty
 
 # Application launcher
 # set $menu dmenu_path | dmenu | xargs swaymsg exec --
