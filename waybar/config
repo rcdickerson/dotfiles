@@ -108,13 +108,8 @@
 			"critical": 15
 		},
 		"format": "{icon} {capacity}%",
-		"format-icons": [
-			"",
-			"",
-			"",
-			"",
-			""
-		],
+		"format-icons": ["","","","",""],
+    "format-charging": " {capacity}%",
     "full-at": 98
 	},
 	"disk": {
