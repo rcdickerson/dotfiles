@@ -209,4 +209,4 @@ bar {
 include /etc/sway/config.d/*
 
 # Start udiskie
-exec udiskie -aNt &
+exec udiskie -ANt &
