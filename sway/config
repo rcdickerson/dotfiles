@@ -109,8 +109,8 @@ bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. 
     bindsym $mod+Shift+Up move up
     bindsym $mod+Shift+Right move right
     # Mod+Tab to cycle around.
-    bindsym $mod+Tab focus left
-    bindsym $mod+Shift+Tab focus right
+    bindsym $mod+Tab focus right
+    bindsym $mod+Shift+Tab focus left
 
 # Workspaces:
     # Switch to workspace
