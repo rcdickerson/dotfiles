@@ -31,10 +31,13 @@
 		"cpu",
 		"custom/left-arrow-light",
 		"custom/left-arrow-dark",
+		"disk",
+		"custom/left-arrow-light",
+		"custom/left-arrow-dark",
 		"battery",
 		"custom/left-arrow-light",
 		"custom/left-arrow-dark",
-		"disk",
+    "network",
 		"custom/left-arrow-light",
 		"custom/left-arrow-dark",
 		"tray"
@@ -119,6 +122,18 @@
 		"format": "Disk {percentage_used:2}%",
 		"path": "/"
 	},
+  "network": {
+    "format": "{icon} {essid}",
+    "format-alt": "{ipaddr}/{cidr} {icon}",
+    "format-alt-click": "click-right",
+    "format-icons": {
+      "wifi": ["", "" ,""],
+      "ethernet": [""],
+      "disconnected": [""]
+    },
+    "on-click": "alacritty -e nmtui",
+    "tooltip": false
+  },
 	"tray": {
 		"icon-size": 20
 	}
