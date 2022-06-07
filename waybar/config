@@ -122,7 +122,7 @@
     "format-alt": "{ipaddr}/{cidr} {icon}",
     "format-alt-click": "click-right",
     "format-icons": {
-      "wifi": ["", "" ,""],
+      "wifi": ["", "" ,""],
       "ethernet": [""],
       "disconnected": [""]
     },
