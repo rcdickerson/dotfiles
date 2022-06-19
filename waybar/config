@@ -31,8 +31,11 @@
 		"cpu",
 		"custom/left-arrow-light",
 		"custom/left-arrow-dark",
-		"disk",
-		"custom/left-arrow-light",
+		// "disk",
+		// "custom/left-arrow-light",
+		// "custom/left-arrow-dark",
+    "backlight",
+    "custom/left-arrow-light",
 		"custom/left-arrow-dark",
 		"battery",
 		"custom/left-arrow-light",
@@ -110,13 +113,18 @@
 		"format": "{icon} {capacity}%",
 		"format-icons": ["","","","",""],
     "format-charging": " {capacity}%",
-    "full-at": 98
+    "full-at": 97
 	},
-	"disk": {
-		"interval": 5,
-		"format": "Disk {percentage_used:2}%",
-		"path": "/"
-	},
+  "backlight": {
+      "device": "intel_backlight",
+      "format": "{percent}% {icon}",
+      "format-icons": ["", ""]
+  },
+	// "disk": {
+	// 	"interval": 5,
+	// 	"format": "Disk {percentage_used:2}%",
+	// 	"path": "/"
+	// },
   "network": {
     "format": "{icon} {essid}",
     "format-alt": "{ipaddr}/{cidr} {icon}",

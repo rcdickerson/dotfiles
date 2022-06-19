@@ -34,6 +34,7 @@ window#waybar {
 #battery,
 #disk,
 #network,
+#backlight,
 #tray {
 	background: #1a1a1a;
 }
@@ -70,6 +71,12 @@ window#waybar {
 #disk {
 	color: #b58900;
 }
+#network {
+  color: #cbbeb3
+}
+#backlight {
+	color: #b58900;
+}
 
 #clock,
 #pulseaudio,
@@ -77,6 +84,7 @@ window#waybar {
 #cpu,
 #battery,
 #network,
+#backlight,
 #disk {
 	padding: 0 10px;
 }
